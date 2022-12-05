@@ -1,5 +1,3 @@
-get_ipython().system('pip install opencv-python')
-
 from osgeo_utils.gdal_pansharpen import gdal_pansharpen
 import rasterio as rio
 from rasterio.enums import Resampling
@@ -7,7 +5,6 @@ from osgeo import gdal
 from Simple_Pansharpen import *
 import os
 
-get_ipython().run_line_magic('load_ext', 'lab_black')
 
 
 # If user selects Simple Mean pansharpening, Thomas Wang's method is applied. Otherwise, gdal_pansharpen() is used
