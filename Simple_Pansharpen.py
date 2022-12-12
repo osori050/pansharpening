@@ -1,3 +1,10 @@
+#############
+
+# This script was taken from Thomas Wang's GitHub repository 
+# https://github.com/ThomasWangWeiHong/Simple-Pansharpening-Algorithms/blob/master/Simple_Pansharpen.py
+
+#############
+
 import cv2
 import gc
 import numpy as np
