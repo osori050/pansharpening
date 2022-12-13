@@ -104,7 +104,7 @@ def stack_bands(pan_name, psh_names, dst_filename):
 
 #############
 
-def create_pyramids(raster, resampling='nearest'):
+def create_pyramids(raster, resampling):
     """
     This function generates raster overviews for easy visualization.
     It has been adapted from Rasterio Overviews: https://rasterio.readthedocs.io/en/latest/topics/overviews.html
